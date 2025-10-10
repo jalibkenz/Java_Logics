@@ -1,6 +1,6 @@
 //WAP to check whether the given string is palindrome or not using charAt()
 
-class MainClass1{
+class PalindromeCharAt{
     public static void main(String[] args) {
         String str="malayalam";
         String rev="";

@@ -1,5 +1,5 @@
 //Reverse a string using charAt()
-public class MainClass4 {
+public class ReverseString1 {
     public static void main(String[] args) {
         String s="Java";
         String rev="";

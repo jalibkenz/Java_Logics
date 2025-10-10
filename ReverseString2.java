@@ -1,6 +1,6 @@
 //reverse a string WITHOUT using chatAt()
 
-public class MainClass3 {
+public class ReverseString2 {
     public static void main(String[] args) {
         String str = "java"; 
         System.out.println("B4: " + str);

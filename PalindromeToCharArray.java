@@ -1,6 +1,6 @@
 //WAP to check whether the given string is palindrome or not WITHOUT using charAt()
 
-class MainClass2 {
+class PalindromeToCharArray {
     public static void main(String[] args) {
         String str = "malayalam";   
         str = str.toLowerCase();
