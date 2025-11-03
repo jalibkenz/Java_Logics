@@ -8,11 +8,11 @@ public class lexicographical {
         int len=s.length();
         ArrayList<String> list=new ArrayList<>();
         for(int i=0;i<len-2;i++){
-            String res="";
+            StringBuilder res= new StringBuilder();
             for(int j=0;j<3;j++){
-                res+=s.charAt(j);
+                res.append(s.charAt(j));
             }
-            list.add(res);
+            list.add(res.toString());
         }
         Collections.sort(list);
         System.out.println(list);
