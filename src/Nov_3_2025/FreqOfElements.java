@@ -15,7 +15,7 @@ public class FreqOfElements {
             wordList.put(userInputArr[i], wordList.getOrDefault(userInputArr[i],0)+1);
         }
         System.out.println("The Frequency of Elements are:");
-        for(Map.Entry<String, Integer> x: wordList.entrySet()){
+        for(Map.Entry<String, Integer> x: wordList.entrySet()){//Using Entry to fetch entry in entries (key value pairs)
             System.out.printf("%10s | appears | %s\n",x.getKey(),x.getValue());
         }
     }
