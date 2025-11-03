@@ -1,3 +1,5 @@
+package Oct_31_2025;
+
 import java.util.*;
 
 public class lexicographical {

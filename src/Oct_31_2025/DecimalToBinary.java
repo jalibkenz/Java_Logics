@@ -1,3 +1,5 @@
+package Oct_31_2025;
+
 public class DecimalToBinary {
     public static void main(String[] args) {
 
