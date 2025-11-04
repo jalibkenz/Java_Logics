@@ -1,12 +1,10 @@
-package Nov_3_2025;
+package Assn_2025_11_03;
 
-import java.util.LinkedHashMap;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 
-public class PrintDuplicates {
+public class FreqOfElements {
     public static void main(String[] args) {
-        System.out.println("4. Java Program to Print the Duplicates from an Array");
+        System.out.println("1. Java Program to Find the Frequency of Elements in an Array");
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the sentence");
@@ -16,11 +14,9 @@ public class PrintDuplicates {
         for (int i = 0; i <= userInputArr.length-1; i++) {
             wordList.put(userInputArr[i], wordList.getOrDefault(userInputArr[i],0)+1);
         }
-        System.out.println("Duplicates are:");
-        for(Map.Entry<String, Integer> x: wordList.entrySet()){
-            if(x.getValue()>1) {
-                System.out.printf("%10s | appears | %s\n", x.getKey(), x.getValue());
-            }
+        System.out.println("The Frequency of Elements are:");
+        for(Map.Entry<String, Integer> x: wordList.entrySet()){//Using Entry to fetch entry in entries (key value pairs)
+            System.out.printf("%10s | appears | %s\n",x.getKey(),x.getValue());
         }
     }
 }

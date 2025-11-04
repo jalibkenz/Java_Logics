@@ -1,10 +1,12 @@
-package Nov_3_2025;
+package Assn_2025_11_03;
 import java.util.Scanner;
 
-public class LeftRotateArrElemBy2Pos {
+public class LeftRotateArrElemByNPos {
     public static void main(String[] args) {
-        System.out.println("2. Java Program to Left Rotate the Elements in an Array by 2 Positions");
+        System.out.println("2. Java Program to Left Rotate the Elements in an Array by N Positions");
         Scanner sc = new Scanner(System.in);
+        //System.out.println("Enter the number of elements to be rotated left\n");
+        //int leftShiftPositions=sc.nextInt();
         System.out.println("Enter the array elements\n");
         String userInput=sc.nextLine();
         String[] userInputArr=userInput.split(" ");

@@ -12,7 +12,8 @@ public class CharDigitSeparator {
 
         String digits = str.replaceAll("[^0-9]","");
         System.out.println(digits);
-
+        str=str.concat("blabla");
+        System.out.println(str);
 
 
     }
